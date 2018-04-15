@@ -1,4 +1,4 @@
-package online.farshad.my.bookmark.tag.main;
+package online.farshad.bookmark.tag;
 
 /**
  * Created by farshad on 4/16/2018.

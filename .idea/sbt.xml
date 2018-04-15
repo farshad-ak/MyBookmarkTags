@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customVMEnabled" value="true" />
+    <option name="customVMPath" value="C:\Program Files\Java\jre1.8.0_74" />
+    <option name="maximumHeapSize" value="2048" />
+    <option name="vmParameters" value="-XX:MaxPermSize=1024M" />
+  </component>
+</project>

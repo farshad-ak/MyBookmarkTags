@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="MyBookmarkTags" target="1.5" />
+      <module name="MyBookmarkTags" target="1.8" />
       <module name="SpringBoot2" target="1.5" />
     </bytecodeTargetLevel>
   </component>

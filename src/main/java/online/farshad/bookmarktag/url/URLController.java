@@ -9,12 +9,13 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/url")
 public class URLController {
+
     @Autowired
     private URLRepository urlRepository;
 
     @RequestMapping(value = "/add",method = RequestMethod.POST)
     @ResponseBody
-    URL addNewUrl(@RequestParam String name
+   public URL addNewUrl(@RequestParam String name
             , @RequestParam String tag) {
         URL url = new URL();
         url.setUrlName(name);
@@ -22,5 +23,11 @@ public class URLController {
         url = urlRepository.save(url);
 
         return url;
+    }
+
+    @GetMapping(path="/all")
+    public @ResponseBody Iterable<URL> getAllUsers() {
+        // This returns a JSON or XML with the users
+        return urlRepository.findAll();
     }
 }
